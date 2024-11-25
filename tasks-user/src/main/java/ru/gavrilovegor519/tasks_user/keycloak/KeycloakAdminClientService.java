@@ -1,15 +1,16 @@
 package ru.gavrilovegor519.tasks_user.keycloak;
 
-import jakarta.ws.rs.core.Response;
-import kong.unirest.core.JsonNode;
-import kong.unirest.core.Unirest;
+import java.util.Collections;
+
 import org.keycloak.admin.client.resource.UsersResource;
 import org.keycloak.representations.idm.CredentialRepresentation;
 import org.keycloak.representations.idm.UserRepresentation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
+import jakarta.ws.rs.core.Response;
+import kong.unirest.core.JsonNode;
+import kong.unirest.core.Unirest;
 
 @Service
 public class KeycloakAdminClientService {
@@ -60,4 +61,3 @@ public class KeycloakAdminClientService {
                 .asJson().getBody();
     }
 }
-
