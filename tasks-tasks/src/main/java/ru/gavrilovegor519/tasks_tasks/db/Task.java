@@ -1,32 +1,44 @@
 package ru.gavrilovegor519.tasks_tasks.db;
 
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.data.annotation.Id;
-import ru.gavrilovegor519.tasks_tasks.constants.TaskPriority;
-import ru.gavrilovegor519.tasks_tasks.constants.TaskStatus;
-
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+import ru.gavrilovegor519.tasks_tasks.constants.TaskPriority;
+import ru.gavrilovegor519.tasks_tasks.constants.TaskStatus;
+
+@Entity
+@Table(name = "tasks")
 @Getter
 @Setter
 public class Task {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
 
+    @Column(name = "name", length = 100, nullable = false)
     private String name;
 
+    @Column(name = "description", length = 300, nullable = false)
     private String description;
 
+    @Column(name = "status", nullable = false)
     private TaskStatus status;
 
+    @Column(name = "priority", nullable = false)
     private TaskPriority priority;
 
-    private List<Long> commentIds;
+    @Column(name = "commentIds", nullable = false)
+    private List<Long> commentIds = new ArrayList<>();
 
+    @Column(name = "authorEmail", length = 100, nullable = false)
     private String authorEmail;
 
+    @Column(name = "assignedEmail", length = 100, nullable = false)
     private String assignedEmail;
 
     @Override
