@@ -13,6 +13,7 @@
 *.iws
 *.iml
 *.ipr
+.gigaide/
 
 ### NetBeans ###
 /nbproject/private/
