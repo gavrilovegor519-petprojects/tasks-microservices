@@ -1,14 +1,14 @@
-package ru.gavrilovegor519.tasks_tasks.db;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+package ru.gavrilovegor519.tasks_tasks.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import ru.gavrilovegor519.tasks_tasks.constants.TaskPriority;
-import ru.gavrilovegor519.tasks_tasks.constants.TaskStatus;
+import ru.gavrilovegor519.tasks_tasks.constant.TaskPriority;
+import ru.gavrilovegor519.tasks_tasks.constant.TaskStatus;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 @Entity
 @Table(name = "tasks")
