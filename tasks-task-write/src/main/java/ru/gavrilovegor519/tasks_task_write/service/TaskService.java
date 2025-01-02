@@ -1,8 +1,8 @@
-package ru.gavrilovegor519.tasks_tasks.service;
+package ru.gavrilovegor519.tasks_task_write.service;
 
-import ru.gavrilovegor519.tasks_tasks.constant.TaskPriority;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskStatus;
-import ru.gavrilovegor519.tasks_tasks.entity.Task;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskPriority;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskStatus;
+import ru.gavrilovegor519.tasks_task_write.entity.Task;
 
 /**
  * Task management service layer.

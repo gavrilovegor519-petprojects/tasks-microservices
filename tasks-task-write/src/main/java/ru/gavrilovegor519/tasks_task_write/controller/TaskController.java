@@ -1,4 +1,4 @@
-package ru.gavrilovegor519.tasks_tasks.controller;
+package ru.gavrilovegor519.tasks_task_write.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -1,10 +1,10 @@
-package ru.gavrilovegor519.tasks_tasks.entity;
+package ru.gavrilovegor519.tasks_task_write.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskPriority;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskStatus;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskPriority;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskStatus;
 
 import java.util.ArrayList;
 import java.util.List;

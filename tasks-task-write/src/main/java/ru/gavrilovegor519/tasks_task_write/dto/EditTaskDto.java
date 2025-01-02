@@ -1,4 +1,4 @@
-package ru.gavrilovegor519.tasks_tasks.dto;
+package ru.gavrilovegor519.tasks_task_write.dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

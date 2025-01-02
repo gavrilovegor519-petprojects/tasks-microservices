@@ -1,4 +1,4 @@
-package ru.gavrilovegor519.tasks_tasks.dto;
+package ru.gavrilovegor519.tasks_task_write.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
@@ -6,8 +6,8 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskPriority;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskStatus;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskPriority;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskStatus;
 
 @Getter
 @Setter

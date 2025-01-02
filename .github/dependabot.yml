@@ -15,6 +15,6 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "gradle"
-    directory: "/tasks-tasks"
+    directory: "/tasks-task-write"
     schedule:
       interval: "daily"

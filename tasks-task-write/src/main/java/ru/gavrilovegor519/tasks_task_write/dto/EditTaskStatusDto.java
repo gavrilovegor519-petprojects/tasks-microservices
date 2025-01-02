@@ -1,9 +1,9 @@
-package ru.gavrilovegor519.tasks_tasks.dto;
+package ru.gavrilovegor519.tasks_task_write.dto;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
-import ru.gavrilovegor519.tasks_tasks.constant.TaskStatus;
+import ru.gavrilovegor519.tasks_task_write.constant.TaskStatus;
 
 @Getter
 @Setter
